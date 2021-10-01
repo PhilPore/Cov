@@ -39,7 +39,7 @@ currentT = datetime.datetime.now()
 # populateCovdat = True
 try:
     cnx = mysql.connector.connect(
-        host="localhost", user="AGuy", password="Arcane233", database="CovCases"
+        host="localhost", user="AGuy", password="[redacted]", database="CovCases"
     )
     cursor = cnx.cursor()
     cursor.execute("SELECT Time FROM covdat ORDER BY Time ASC LIMIT 1")
